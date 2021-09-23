@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-public class CtoF{
+public class CtoFTester{
   public static void main(String[]args){
-    
+    celsiusToFahrenheit(0);
+    celsiusToFahrenheit(-40);
+  }
+  public static void celsiusToFahrenheit(int C){
+    System.out.println(C * 9 / 5 +32);
   }
 }
-=======
-public class CtoF{
-}
->>>>>>> 1e246e58844a6a3f8605e932217d47d87d47029a
